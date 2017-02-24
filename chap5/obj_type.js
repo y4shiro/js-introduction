@@ -7,3 +7,6 @@ var h = new Hamster();
 console.log(a.constructor === Animal);
 console.log(h.constructor === Animal);
 console.log(h.constructor === Hamster);
+
+console.log(h instanceof Animal);
+console.log(h instanceof Hamster);
