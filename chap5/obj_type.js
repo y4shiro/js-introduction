@@ -10,3 +10,6 @@ console.log(h.constructor === Hamster);
 
 console.log(h instanceof Animal);
 console.log(h instanceof Hamster);
+
+console.log(Hamster.prototype.isPrototypeOf(h));
+console.log(Animal.prototype.isPrototypeOf(h));
