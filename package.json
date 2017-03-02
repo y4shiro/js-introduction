@@ -1,0 +1,30 @@
+{
+  "name": "js-introduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y4shiro/js-introduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y4shiro/js-introduction/issues"
+  },
+  "homepage": "https://github.com/y4shiro/js-introduction#readme"
+}
