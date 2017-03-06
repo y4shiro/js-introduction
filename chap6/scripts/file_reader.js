@@ -6,6 +6,9 @@ window.addEventListener('DOMContentLoaded', function() {
     reader.addEventListener('load', function() {
       document.getElementById("result").textContent = reader.result;
     }, true);
+    reader.addEventListener('error', function() {
+      console.log(reader.error.message);
+    }, true);
     reader.readAsText(input, 'UTF-8');
   }, true);
 });
